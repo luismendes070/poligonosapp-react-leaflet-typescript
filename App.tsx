@@ -8,13 +8,16 @@ import './style.css';
 
 export default function App() {
 
+  const map = L.map('map').setView([51.505, -0.09], 13);
+
   const [geojson, setGeoJSON] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('your-rest-api-endpoint');
-        setGeoJSON(response.data);
+        setGeoJSON(map);
+        // const response = await axios.get('your-rest-api-endpoint');
+        // setGeoJSON(response.data);
       } catch (error) {
         console.error(error);
       }
