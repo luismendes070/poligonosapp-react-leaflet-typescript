@@ -8,7 +8,7 @@ import './style.css';
 
 export default function App() {
 
-  const map = L.map('map').setView([51.505, -0.09], 13);
+  // const map = L.map('map').setView([51.505, -0.09], 13);
 
   const [geojson, setGeoJSON] = useState(null);
 
