@@ -15,9 +15,8 @@ export default function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        setGeoJSON(map);
-        // const response = await axios.get('your-rest-api-endpoint');
-        // setGeoJSON(response.data);
+        const response = await axios.get('https://www.localhost:3000/api/polygons');
+        setGeoJSON(response.data);
       } catch (error) {
         console.error(error);
       }
