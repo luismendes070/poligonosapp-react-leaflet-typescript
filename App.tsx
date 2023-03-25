@@ -13,9 +13,9 @@ export default function App() {
   const [geojson, setGeoJSON] = useState(null);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData:any = async () => {
       try {
-        const response = await axios.get('https://www.localhost:3000/api/polygons');
+        const response:any = await axios.get('https://www.localhost:3000/api/polygons');
         setGeoJSON(response.data);
       } catch (error) {
         console.error(error);
@@ -25,7 +25,7 @@ export default function App() {
     fetchData();
   }, []);
   
-  const getPolygonStyle = (feature) => {
+  const getPolygonStyle = (feature:any) => {
     return {
       fillColor: feature.properties.fillColor,
       color: feature.properties.strokeColor,
