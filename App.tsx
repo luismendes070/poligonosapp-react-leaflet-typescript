@@ -16,7 +16,7 @@ export default function App() {
     const fetchData:any = async () => {
       try {
         const response:any = await axios.get('https://www.localhost:3000/api/polygons');
-        setGeoJSON(response.data);
+        setGeoJSON(JSON.stringify(response.data));
       } catch (error) {
         console.error(error);
       }
