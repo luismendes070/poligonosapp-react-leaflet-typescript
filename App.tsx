@@ -17,9 +17,9 @@ export default function App() {
       try {
         const response:any = await axios.get('https://www.localhost:3000/api/polygons');
 
-const a = document.body.innerText=JSON.stringify(response.data);
+// const a = document.body.innerText=JSON.stringify(response.data);
 
-        setGeoJSON(a);
+        setGeoJSON(response.data);
       } catch (error) {
         console.error(error);
       }
