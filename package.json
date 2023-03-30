@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "http":"latest",
-    "https":"latest",
     "zlib":"latest",
     "events":"latest",
     "debug":"latest",
