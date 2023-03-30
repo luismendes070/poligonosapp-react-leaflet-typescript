@@ -28,6 +28,6 @@ try{
 
 }finally{
 
-  console.log('src/index reactJS TypeScript finally.');
+  console.log('src/index leafletJS reactJS TypeScript finally.');
 
 }
