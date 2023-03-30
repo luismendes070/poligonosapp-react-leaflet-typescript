@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@types/express": "latest",
+    "express": "latest",
+    "nodemon": "latest",
+    "sucrase": "latest",
     "http": "latest",
     "zlib": "latest",
     "events": "latest",
