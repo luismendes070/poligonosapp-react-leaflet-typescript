@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "webpack:build": "webpack --config prod.config.js",
+    "webpack:build": "webpack --config prod.config.ts",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
