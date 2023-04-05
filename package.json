@@ -23,11 +23,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "webpack:build": "webpack --config prod.config.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "@types/webpack-dev-server": "4.7.2",
     "babel-loader": "9.1.2",
     "@babel/core":"6.26.3",
     "webpack":"5.76.3",
