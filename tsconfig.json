@@ -3,5 +3,10 @@
     "strict": true,
     "target": "esnext",
     "allowJs": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
   }
 }
