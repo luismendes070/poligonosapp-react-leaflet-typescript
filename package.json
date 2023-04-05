@@ -28,6 +28,10 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "babel-loader": "9.1.2",
+    "@babel/core":"6.26.3",
+    "webpack":"5.76.3",
+    "webpack/cli": "5.0.1",
+    "react-scripts": "5.0.1"
   }
 }
