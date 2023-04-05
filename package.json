@@ -7,7 +7,6 @@
     "express": "latest",
     "nodemon": "latest",
     "sucrase": "latest",
-    "http": "latest",
     "zlib": "latest",
     "events": "latest",
     "debug": "latest",
